@@ -1,0 +1,21 @@
+<section>
+    <h1 data-bind="text:Title"></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Balance</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:{data:Accounts,as:'Account'}">
+            <tr>
+                <td data-bind="text:Id"></td>
+                <td data-bind="text:Name"></td>
+                <td data-bind="text:Balance"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button data-bind="click:AddAccount">add Account</button>
+    <button data-bind="click:DeleteAccount">delete Account</button>
+</section>
