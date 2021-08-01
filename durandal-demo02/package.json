@@ -1,0 +1,48 @@
+{
+  "name": "durandal-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@types/durandal": "^2.1.40",
+    "@types/knockout": "^3.4.71",
+    "@types/requirejs": "^2.1.33",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^6.0.1",
+    "sass": "^1.36.0",
+    "tsify": "^5.0.4",
+    "typescript": "^4.3.5",
+    "vinyl-buffer": "^1.0.1"
+  },
+  "dependencies": {
+    "durandal": "^2.2.0",
+    "jquery": "^3.6.0",
+    "knockout": "^3.5.1",
+    "requirejs": "^2.3.6"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "iOS < 7"
+  ]
+}
