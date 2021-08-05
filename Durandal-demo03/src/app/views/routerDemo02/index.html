@@ -1,0 +1,19 @@
+<section>
+    <ul>
+        <li>intro router example</li>
+        <!--ko foreach:introRouter  -->
+        <li data-bind="css: { active: isActive }">
+            <a data-bind="attr: { href: hash }, text: title"></a>
+        </li>
+        <!-- /ko -->
+
+        <li>details router example</li>
+        <!--ko foreach:detailRouter  -->
+        <li data-bind="css: { active: isActive }">
+            <a data-bind="attr: { href: hash }, text: title"></a>
+        </li>
+        <!-- /ko -->
+    </ul>
+    <!-- ko router:{transition:'entrance',cacheView:true} -->
+    <!-- /ko -->
+</section>
