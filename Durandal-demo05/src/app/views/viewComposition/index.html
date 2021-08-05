@@ -1,0 +1,13 @@
+<section>
+    <h1>this is a viewComposition demo</h1>
+    <!-- ko compose:'viewComposition/subChildren/childView1.html' -->
+    <!-- /ko -->
+    <!-- ko compose:'viewComposition/subChildren/childView2.html' -->
+    <!-- /ko -->
+
+    <!-- ko compose:{model:'viewmodels/viewComposition/inlineModule', mode:'inline'} -->
+    <h3 data-bind="text:InlineModuleTitle"></h3>
+    <!-- /ko -->
+
+    <div data-bind="compose:{view:'viewComposition/subChildren/childView3.html', mode:'templated'}"></div>
+</section>
