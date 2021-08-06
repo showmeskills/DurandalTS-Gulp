@@ -1,0 +1,8 @@
+<section>
+    <h1>Publisher</h1>
+    <div>
+        <!-- input中添加 valueUpdate:afterkeydown 当输入框中有值的时候 button按钮就会高粱 -->
+        <input type="text" data-bind="value:message,valueUpdate:'afterkeydown'" />
+        <button data-bind="click:publish,enable:canPuhlish">publish</button>
+    </div>
+</section>

@@ -1,0 +1,10 @@
+<section>
+    <h1>Subscriber</h1>
+    <div>
+        <button data-bind="enable:!subscription(),click:subscribe">subscribe</button>
+        <button data-bind="enable:subscription,click:unsubscribe">unsubscribe</button>
+    </div>
+    <ul data-bind="foreach:received">
+        <li data-bind="text:$data"></li>
+    </ul>
+</section>
