@@ -1,0 +1,10 @@
+<div>
+    <nav>
+        <ul class="nav navbar-nav" data-bind="foreach: router.navigationModel">
+            <li data-bind="css: { active: isActive }">
+                <a data-bind="attr: { href: hash }, text: title"></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="page-host" data-bind="router: { transition:'entrance'}"></div>
+</div>
