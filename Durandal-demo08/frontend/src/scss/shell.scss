@@ -1,0 +1,42 @@
+
+//超小屏幕
+@media (max-width:575px){
+    .container-slef{
+        background-color: red;
+        width:100%;
+    }
+}
+//小屏幕
+@media (min-width:576px) and (max-width:767px){
+    .container-slef{
+        background-color: green;
+        width:540px;
+    }
+}
+//中等屏幕
+@media (min-width:768px) and (max-width:991px){
+    .container-slef{
+        background-color: greenyellow;
+        width:720px;
+    }
+}
+//大屏幕
+@media(min-width:992px) and (max-width:1199px){
+    .container-slef{
+        background-color: purple;
+        width:970px;
+    }
+}
+
+@media(min-width:1200px){
+    .container-slef{
+        background-color: pink;
+        width:1140px;
+    }
+}
+
+// .container>.row{
+//     height: 200px;
+//     margin-top:20px;
+//     background-color: blue;
+// }
